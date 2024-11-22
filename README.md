@@ -11,7 +11,7 @@ The goal of this project is to develop a robust Natural Language Processing (NLP
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Tech Stack](#tech-stack)
-- [Future Enhancements](#future-enhancements)
+- [Future Improvements](#future-improvements)
 
 
 ## Project Objectives
