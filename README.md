@@ -51,7 +51,7 @@ NLP-Based-Cybercrime-Complaint-Classification/
 ├── README.md                # Project documentation
 ├── requirements.txt         # List of dependencies
 ├── data/
-│   ├── raw/                 # Raw dataset
+│   ├── original_data/                 # Raw dataset
 │   ├── processed/           # Cleaned and tokenized data
 ├── notebooks/               # EDA and experimental notebooks
 │   ├── EDA.ipynb
