@@ -63,6 +63,20 @@ NLP-Based-Cybercrime-Complaint-Classification/
 └── Final_script_with_category_and_SubCat_classification.ipynb
 ```
 
+### **Assets for Subcategory Classification**
+We are performing subcategory classification based on an initial split using the main category. This allows us to classify complaints into more specific subcategories within each main category. To facilitate this, the repository contains three main category folders:
+
+- **category_0**: Women/Child Related Crime
+- **category_1**: Financial Fraud Crimes
+- **category_2**: Other Cyber Crimes
+
+Inside each category folder, you will find the following assets:
+- **Top-performing model weights**: These are the trained models that perform the best for each specific subcategory classification task within the category.
+- **Embeddings**: These represent the feature vectors for the text data used in training the models, which are crucial for consistent prediction and model performance.
+
+These assets are stored for reuse and experimentation, ensuring that each model can be applied to relevant complaints for efficient classification.
+
+
 ## Setup instructions
 
 ### Step 1: Clone the repository
