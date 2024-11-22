@@ -83,7 +83,7 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 
 ### Step 3: Install Dependencies
 
-Use pip to install the required libraries:
+Use `pip` to install the required libraries:
 
 ```bash
 pip install -r requirements.txt
