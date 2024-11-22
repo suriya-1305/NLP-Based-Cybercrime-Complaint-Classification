@@ -82,6 +82,18 @@ Inside each category folder, you will find the following assets:
 
 These assets are stored for reuse and experimentation, ensuring that each model can be applied to relevant complaints for efficient classification.
 
+### Data files for model training:
+ - **Train_cleaned** = 'https://drive.google.com/file/d/1Y-wjVGBTmuXiwONjaLaDMgN1JXBPn77u/view?usp=sharing'
+ - **final_train** = 'https://drive.google.com/file/d/1wv9U9LMb-Yzf6Vh911lbf8JGLMcKSEb8/view?usp=drive_link'
+
+### Experiments and Model results:
+- **Experiments** = 'https://docs.google.com/spreadsheets/d/1p2OxUa0BStz7FbmidLZFWBy4I-7AI_A0/edit?gid=605208902#gid=605208902'
+- **Model results** = 'https://docs.google.com/spreadsheets/d/1iebrdo7LKyfZf43rq8i_ZcLng7wB_5tZLBT2hn_qnGw/edit?usp=sharing'
+
+### Complete Report for the project:
+**Report** = 'https://docs.google.com/document/d/1ltlj5EYQw5l9oO_bSagTr38U4wulbxJO5g962jQcm34/edit?usp=sharing'
+
+
 ## Approach
 
 We are performing subcategory classification based on an initial split using the main category. Below are the three main categories:
