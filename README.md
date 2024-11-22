@@ -82,12 +82,8 @@ Inside each category folder, you will find the following assets:
 
 These assets are stored for reuse and experimentation, ensuring that each model can be applied to relevant complaints for efficient classification.
 
-### Data files for model training:
- - **Train_cleaned** = 'https://drive.google.com/file/d/1Y-wjVGBTmuXiwONjaLaDMgN1JXBPn77u/view?usp=sharing'
- - **final_train** = 'https://drive.google.com/file/d/1wv9U9LMb-Yzf6Vh911lbf8JGLMcKSEb8/view?usp=drive_link'
-
 ### Experiments and Model results:
-- **Experiments** = 'https://docs.google.com/spreadsheets/d/1p2OxUa0BStz7FbmidLZFWBy4I-7AI_A0/edit?gid=605208902#gid=605208902'
+- **Experiments** = 'https://docs.google.com/spreadsheets/d/1p2OxUa0BStz7FbmidLZFWBy4I-7AI_A0/edit?gid=605208902#gid=605208902' 
 - **Model results** = 'https://docs.google.com/spreadsheets/d/1iebrdo7LKyfZf43rq8i_ZcLng7wB_5tZLBT2hn_qnGw/edit?usp=sharing'
 
 ### Complete Report for the project:
@@ -178,6 +174,11 @@ Ensure SpaCy's model for English is downloaded
 ```bash
 python -m spacy download en_core_web_sm
 ```
+
+### Step 6: Data files for model training:
+Due to file uploading constraints in git, we have shared an open link to data files to run the notebook. This step is compulsary to fully run the `Final_script_with_category_and_SubCat_classification.ipynb`
+ - **Train_cleaned** = 'https://drive.google.com/file/d/1Y-wjVGBTmuXiwONjaLaDMgN1JXBPn77u/view?usp=sharing' (store this file under "Data/data_analysis/" folder)
+ - **final_train** = 'https://drive.google.com/file/d/1wv9U9LMb-Yzf6Vh911lbf8JGLMcKSEb8/view?usp=drive_link' (store this file under "Data/processed_data/" folder)
 
 ### Run the Notebook
 
