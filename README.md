@@ -79,7 +79,7 @@ These assets are stored for reuse and experimentation, ensuring that each model 
 
 ## Approach
 
-We are performing subcategory classification based on an initial split using the main category. This allows us to classify complaints into more specific subcategories within each main category.Below are the three main category:
+We are performing subcategory classification based on an initial split using the main category. Below are the three main categories:
 
 - **category_0**: Women/Child Related Crime
 - **category_1**: Financial Fraud Crimes
