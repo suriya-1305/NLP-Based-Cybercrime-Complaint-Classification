@@ -50,16 +50,20 @@ This repository is structured for ease of use, with clearly organized scripts, n
 NLP-Based-Cybercrime-Complaint-Classification/
 ├── README.md                # Project documentation
 ├── requirements.txt         # List of dependencies
-├── data/
+├── Data/
 │   ├── original_data/                 # Raw dataset
 │   ├── processed/           # Cleaned and tokenized data
-├── notebooks/               # EDA and experimental notebooks
-│   ├── EDA.ipynb
-│   ├── Model_Experiments.ipynb
-├── assets/ 
+├── Notebooks/               # EDA and experimental notebooks
+│   ├── Data_Cleaning_and_exploration_Part1.ipynb
+│   ├── DataProcessing_and_CleaningPipeline.ipynb
+│   ├── CategoryClassification.ipynb
+│   ├── SubCategory_multi_classification_for_3_categories.ipynb
+├── Documents/               
+│   ├── Dataset_Usage_Guide.pdf
+├── Assets/ 
 │   ├── CategoryClassification/      # Saved models and embeddings
 │   ├── SubCategoryClassification/   # Saved models and embeddings
-├── results/                 # Results and reports
+├── Results/                 # Results and reports
 │   ├── performance.xlsx     # Model performance metrics
 └── Final_script_with_category_and_SubCat_classification.ipynb
 ```
