@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ### Step 4: Download NLTK Data
 
-This cose used NLTK stopwords, so ensure you download the necessary data:
+This code used NLTK stopwords, so ensure you download the necessary data:
 
 ```python
 import nltk
