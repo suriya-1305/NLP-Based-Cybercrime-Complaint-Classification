@@ -143,36 +143,9 @@ The project utilizes the following technologies:
 - **Version Control**: Git for versioning and GitHub for repository hosting.
 
 ## Future Improvements
-While this project serves as a strong starting point for cybercrime complaint classification, there are several potential areas for improvement:
 
-### 1. **Advanced NLP Techniques**
-- **Transformer Models**: Leverage advanced transformer models like BERT, GPT, or RoBERTa for better text classification performance.
-- **Contextual Embeddings**: Incorporate pretrained word embeddings like GloVe or Word2Vec to improve model understanding of the text.
+ 1. **Contextual Embeddings**: Incorporate pretrained word embeddings like GloVe or Word2Vec to improve model understanding of the text.
+ 2. **Data correction using LLM before model training**: for eg. use Gemini to correct spelling mistakes, translate indigenous langs to English
 
-### 2. **Handling Imbalanced Data**
-Implement more advanced techniques to handle class imbalance, such as:
-- **Synthetic Minority Over-sampling Technique (SMOTE)**
-- **Cost-sensitive learning algorithms**
-- **Ensemble methods tailored for imbalanced datasets**
 
-### 3. **Model Optimization and Hyperparameter Tuning**
-- Experiment with deeper hyperparameter tuning using techniques like Random Search or Bayesian Optimization.
-- Use AutoML frameworks like TPOT or H2O.ai to automate the model selection and hyperparameter tuning process.
-
-### 4. **Real-time Classification**
-- Integrate the model into a real-time pipeline for classifying incoming complaints or reports on a live system, such as a cybercrime hotline or complaint management system.
-
-### 5. **Explainability**
-- Implement model explainability tools like LIME or SHAP to understand the decision-making process of machine learning models, ensuring transparency in the classification results.
-
-### 6. **Scalability**
-- Deploy the solution on a cloud platform (e.g., AWS, GCP, or Azure) and create an API for easy integration with other systems.
-- Use distributed computing frameworks like Dask or Spark for processing large-scale datasets.
-
-### 7. **Multilingual Support**
-- Extend the model to support multilingual datasets to classify complaints in various languages.
-- Explore using multilingual embeddings such as mBERT or XLM-R.
-
-### 8. **User Interface**
-- Develop a user-friendly web interface or mobile application where users can submit cybercrime complaints and view classified results in real-time.
 
