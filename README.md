@@ -8,6 +8,7 @@ The goal of this project is to develop a robust Natural Language Processing (NLP
 - [Project Objectives](#project-objectives)
 - [Project Overview](#project-overview)
 - [File Structure](#file-structure)
+- [Approach](#approach)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Tech Stack](#tech-stack)
@@ -75,6 +76,48 @@ Inside each category folder, you will find the following assets:
 - **Embeddings**: These represent the feature vectors for the text data used in training the models, which are crucial for consistent prediction and model performance.
 
 These assets are stored for reuse and experimentation, ensuring that each model can be applied to relevant complaints for efficient classification.
+
+## Approach
+
+We are performing subcategory classification based on an initial split using the main category. This allows us to classify complaints into more specific subcategories within each main category.Below are the three main category:
+
+- **category_0**: Women/Child Related Crime
+- **category_1**: Financial Fraud Crimes
+- **category_2**: Other Cyber Crimes
+
+### **Labels and their corresponding subcategory group in category 0:**
+-	Label 2: Child Pornography/Child Sexual Abuse Material(CSAM)
+-	Label 24: Rape/Gang Rape-Sexually Abusive Content
+### **Labels and their corresponding subcategory group in category 1:**
+-	Label 1: Business Email Compromise/Email Takeover
+-	Label 3: Cryptocurrency Fraud
+-	Label 8: Debit/Credit Card/Sim Swap Fraud
+-	Label 9: Demat/Depository Fraud
+-	Label 11: E-Wallet Related Frauds
+-	Label 13: Fraud Call/Vishing
+-	Label 16: Internet Banking-Related Fraud
+-	Label 19: Online Gambling/Betting Fraud
+-	Label 27: UPI-Related Frauds
+
+### **Labels and their corresponding subcategory group in category 2:**
+-	Label 0: Any Other Cyber Crime
+-	Label 4: Cyber Bullying/Stalking/Sexting
+-	Label 5: Cyber Terrorism
+-	Label 6: Damage to Computer Systems
+-	Label 7: Data Breach/Theft
+-	Label 10: Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks
+-	Label 12: Email Hacking/Phishing/Impersonating/Intimidating
+-	Label 14: Hacking/Website Defacement
+-	Label 15: Impersonation Fraud
+-	Label 17: Malicious code attacks
+-	Label 18: Online Cyber Trafficking
+-	Label 20: Online Job Fraud
+-	Label 21: Online Matrimonial Fraud
+-	Label 22: Profile Hacking/Identity Theft
+-	Label 23: Provocative Speech of Unlawful Acts
+-	Label 26: Tampering with Computer Source Documents
+-	Label 28: Unauthorized Access/Data Breach
+
 
 
 ## Setup instructions
